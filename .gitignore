@@ -12,7 +12,7 @@
 /docs-dist
 
 # misc
-.DS_Store
+.DS_Stores
 
 # umi
 .umi
@@ -23,3 +23,4 @@
 # ide
 /.vscode
 /.idea
+/.history
