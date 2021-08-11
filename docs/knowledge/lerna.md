@@ -1,6 +1,6 @@
 ---
 title: Lerna
-order: 1
+order: 3
 toc: content
 nav:
   title: knowledge
