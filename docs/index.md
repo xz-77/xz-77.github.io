@@ -1,10 +1,10 @@
 ---
 hero:
-  title: xiaoze77.github.io
-  desc: xiaoze77.github.io site example
+  title: X
+  desc: Personal website
   actions:
-    - text: Getting Started
-      link: /components
+    - text: 快速进入
+      link: /knowledge
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: Feature 1
@@ -18,4 +18,4 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello xiaoze77.github.io!
+## Hello,Nice to meet you
