@@ -13,7 +13,7 @@ export default defineConfig({
     null, // null 值代表保留约定式生成的导航，只做增量配置
     {
       title: 'GitHub',
-      path: 'https://github.com/xiaoze77',
+      path: 'https://github.com/xiaoze77/xiaoze77.github.io',
     },
   ],
 });
