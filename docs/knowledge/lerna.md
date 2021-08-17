@@ -4,7 +4,7 @@ order: 3
 toc: content
 nav:
   title: knowledge
-  order: 1
+  order: 6
 ---
 
 ## lerna init

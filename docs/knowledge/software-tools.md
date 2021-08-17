@@ -1,10 +1,10 @@
 ---
-title: software tools
+title: 常用软件工具
 order: 1
 toc: content
 nav:
   title: knowledge
-  order: 1
+  order: 6
 ---
 
 ## tools

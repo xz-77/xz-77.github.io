@@ -4,7 +4,7 @@ order: 2
 toc: content
 nav:
   title: knowledge
-  order: 1
+  order: 6
 ---
 
 ## 获取 registry
