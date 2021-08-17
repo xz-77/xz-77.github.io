@@ -1,5 +1,9 @@
-# xiaoze77.github.io
+👋 你好！
 
-## Getting Started
+我是 xiaoze77
 
-Nice to meet you!
+职业：前端开发工程师
+
+爱好：躺着
+
+[顿顿饭](https://github.com/xiaoze77/xiaoze77.github.io)

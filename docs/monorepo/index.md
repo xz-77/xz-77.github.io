@@ -4,7 +4,7 @@ order: 1
 toc: content
 nav:
   title: monorepo
-  order: 5
+  order: 4
 ---
 
 ## 单个仓库
