@@ -14,6 +14,6 @@ nav:
 树结构，包括普通树，二叉树，线索二叉树等；
 图存储结构；
 
-## 动态规划
-
 [动态规划](https://zhuanlan.zhihu.com/p/93857890)
+
+[十大排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)

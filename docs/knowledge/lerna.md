@@ -7,6 +7,8 @@ nav:
   order: 6
 ---
 
+[lerna](http://www.febeacon.com/lerna-docs-zh-cn/)
+
 ## lerna init
 
 - `lerna init` 常见的心的 lerna 仓库(repo)或将现有的仓库升级为适配当前版本的 lerna
