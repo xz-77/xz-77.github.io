@@ -54,3 +54,29 @@ function swap(arr, i, j) {
 
 console.log(quickSort([4, 1, 5, 3, 235]));
 ```
+
+## 插入排序
+
+1. 将第一待排序序列第一个元素看作一个有序序列，把第二个元素到最后一个元素当成是未排序序列
+2. 从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。(如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面)
+
+```javascript
+const sort = (arr) => {
+  for (let i = 1; i < arr.length; i++) {
+    let l = i - 1;
+    let cur = arr[i];
+    let currIndex = l;
+    while (currIndex >= 0 && arr[currIndex] > cur) {
+      // 轮番插入排序
+      arr[currIndex + 1] = arr[currIndex];
+      currIndex--;
+    }
+
+    arr[currIndex + 1] = cur;
+    console.log(currIndex, arr);
+  }
+  return arr;
+};
+
+console.log([1, 2, 5, 3, 4, 2]);
+```
