@@ -3,7 +3,7 @@ title: 动态规划
 order: 3
 toc: content
 nav:
-  title: leecode
+  title: leetcode
   order: 3
 ---
 

@@ -3,7 +3,7 @@ title: 链接
 order: 1
 toc: content
 nav:
-  title: leecode
+  title: links
   order: 6
 ---
 

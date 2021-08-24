@@ -3,7 +3,7 @@ title: 排序算法
 order: 2
 toc: content
 nav:
-  title: leecode
+  title: leetcode
   order: 3
 ---
 

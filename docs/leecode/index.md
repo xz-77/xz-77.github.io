@@ -3,7 +3,7 @@ title: 数据结构
 order: 1
 toc: content
 nav:
-  title: leecode
+  title: leetcode
   order: 3
 ---
 
