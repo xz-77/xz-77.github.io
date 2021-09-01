@@ -3,8 +3,8 @@ title: npm
 order: 2
 toc: content
 nav:
-  title: other
-  order: 6
+  title: monorepo
+  order: 4
 ---
 
 ## 获取 registry

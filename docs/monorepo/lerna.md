@@ -3,8 +3,8 @@ title: lerna
 order: 3
 toc: content
 nav:
-  title: other
-  order: 6
+  title: monorepo
+  order: 4
 ---
 
 [lerna](http://www.febeacon.com/lerna-docs-zh-cn/)

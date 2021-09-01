@@ -4,7 +4,7 @@ order: 1
 toc: content
 nav:
   title: typescript
-  order: 6
+  order: 5
 ---
 
 [TS 体操](https://github.com/type-challenges/type-challenges/blob/master/README.zh-CN.md)

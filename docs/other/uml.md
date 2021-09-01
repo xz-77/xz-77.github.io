@@ -1,6 +1,6 @@
 ---
 title: UML
-order: 5
+order: 3
 toc: content
 nav:
   title: other
