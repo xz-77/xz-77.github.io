@@ -1,9 +1,9 @@
 ---
-title: 常用软件工具
+title: 常用软件
 order: 1
 toc: content
 nav:
-  title: knowledge
+  title: other
   order: 6
 ---
 

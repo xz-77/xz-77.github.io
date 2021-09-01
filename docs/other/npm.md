@@ -3,7 +3,7 @@ title: npm
 order: 2
 toc: content
 nav:
-  title: knowledge
+  title: other
   order: 6
 ---
 

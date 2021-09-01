@@ -3,7 +3,7 @@ title: UML
 order: 5
 toc: content
 nav:
-  title: knowledge
+  title: other
   order: 6
 ---
 

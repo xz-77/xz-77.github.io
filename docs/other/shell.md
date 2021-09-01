@@ -3,7 +3,7 @@ title: shell
 order: 4
 toc: content
 nav:
-  title: knowledge
+  title: other
   order: 6
 ---
 

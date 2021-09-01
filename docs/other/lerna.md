@@ -1,9 +1,9 @@
 ---
-title: Lerna
+title: lerna
 order: 3
 toc: content
 nav:
-  title: knowledge
+  title: other
   order: 6
 ---
 
