@@ -1,6 +1,6 @@
 ---
 title: 排序算法
-order: 2
+order: 3
 toc: content
 nav:
   title: leetcode
