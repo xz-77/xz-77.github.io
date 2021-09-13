@@ -8,3 +8,5 @@ nav:
 ---
 
 [TS 体操](https://github.com/type-challenges/type-challenges/blob/master/README.zh-CN.md)
+
+[TS 文档](https://www.typescriptlang.org/docs/handbook/intro.html)
