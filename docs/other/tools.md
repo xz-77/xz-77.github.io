@@ -45,3 +45,5 @@ rm -rf /Library/Developer/CommandLineTools
 ```
 
 [详细的参考](https://developer.apple.com/library/archive/technotes/tn2339/_index.html#//apple_ref/doc/uid/DTS40014588-CH1-HOW_CAN_I_UNINSTALL_THE_COMMAND_LINE_TOOLS_)
+
+<https://www.it-swarm.cn/zh/macos/%E5%8D%B8%E8%BD%BD%E5%88%A0%E9%99%A4homebrew%E5%8C%85%EF%BC%8C%E5%8C%85%E6%8B%AC%E5%85%B6%E6%89%80%E6%9C%89%E4%BE%9D%E8%B5%96%E9%A1%B9/939996913/>

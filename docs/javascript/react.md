@@ -78,7 +78,7 @@ const EnhancedComponent = enhance(WrappedComponent);
 
 React 不会理会 React 自身之外的 DOM 操作，它根据内部虚拟 DOM 来决定是否需要更新
 
-## 深入 JSX
+### 深入 JSX
 
 `React.createElement(type[,props[,...children]])`语法糖
 
