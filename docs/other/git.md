@@ -23,6 +23,8 @@ nav:
 
 ## 删除全局配置项
 
+`git config --global --unset user.name`
+
 ### 终端执行命令
 
 `git config --global --unset user.name`
