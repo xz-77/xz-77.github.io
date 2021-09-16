@@ -7,17 +7,17 @@ nav:
   order: 6
 ---
 
-## 查看Git所有配置
+## 查看 Git 所有配置
 
 `git config --list`
 
-## 设置user.name和user.email(全局和项目)
+## 设置 user.name 和 user.email(全局和项目)
 
 `git config --global user.name “github’s Name”`
 
 `git config --global user.email “github@xx.com”`
 
-`git config user.email “github@xx.com”`
+`git config user.name “github’s Name”`
 
 `git config user.email “github@xx.com”`
 
