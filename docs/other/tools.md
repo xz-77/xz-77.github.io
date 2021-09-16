@@ -52,7 +52,7 @@ rm -rf /Library/Developer/CommandLineTools
 - [安装与卸载](https://github.com/homebrew/install#uninstall-homebrew)
 - [删除包和依赖项目](https://github.com/beeftornado/homebrew-rmtree)
 
-### node
+## node
 
 在 M1 上安装 NVM，运行 Node@12 会出现类似`wasm code commit Allocation failed - process out of memory...`进程内存不足的错误，是因为 arm64(M1 芯片)架构的原因
 
@@ -62,7 +62,7 @@ rm -rf /Library/Developer/CommandLineTools
 - `$ arch`获取是在 arm64 架构(Apple Silicon M1 芯片)、x64(Intel64 位)或者 i386(Intel32 位)架构
 - `arch -x86_64 zsh`用于切换 Intel64 位处理或者 Intel32 位处理模式(TODO:具体切换其中哪一个的原因还不清楚，我的电脑会切换到 i386 而不是 x64)
 
-### n
+## n
 
 在 M1 芯片上貌似 Homebrew 和 n 会有些问题，目前解决办法是改用 nvm
 
