@@ -13,7 +13,7 @@ nav:
 - 翻译软件 - 有道云翻译
 - 翻墙工具 - clashX
 - 抓包工具 - charles
-- 密码存储工具 - Bitwarden(google扩展程序)
+- 密码存储工具 - Bitwarden(google 扩展程序)
 - xcode-select
 - 软件包管理器 - HomeBrew
 - node 管理工具 - n/nvm
@@ -54,14 +54,33 @@ rm -rf /Library/Developer/CommandLineTools
 
 ### node
 
-在M1上安装NVM，运行Node@12会出现类似`wasm code commit Allocation failed - process out of memory...`进程内存不足的错误，是因为arm64(M1芯片)架构的原因
+在 M1 上安装 NVM，运行 Node@12 会出现类似`wasm code commit Allocation failed - process out of memory...`进程内存不足的错误，是因为 arm64(M1 芯片)架构的原因
 
-- arm64的`Node@15`：没问题
-- arm64的`Node@12`，测试用例中有一些错误
-- 用于x64的`Node@12`：没问题
-- `$ arch`获取是在arm64架构(Apple Silicon M1 芯片)、x64(Intel64位)或者i386(Intel32位)架构
-- `arch -x86_64 zsh`用于切换Intel64位处理或者Intel32位处理模式(TODO:具体切换其中哪一个的原因还不清楚，我的电脑会切换到i386而不是x64)
+- arm64 的`Node@15`：没问题
+- arm64 的`Node@12`，测试用例中有一些错误
+- 用于 x64 的`Node@12`：没问题
+- `$ arch`获取是在 arm64 架构(Apple Silicon M1 芯片)、x64(Intel64 位)或者 i386(Intel32 位)架构
+- `arch -x86_64 zsh`用于切换 Intel64 位处理或者 Intel32 位处理模式(TODO:具体切换其中哪一个的原因还不清楚，我的电脑会切换到 i386 而不是 x64)
 
 ### n
 
-在M1芯片上貌似Homebrew和n会有些问题，目前解决办法是改用nvm
+在 M1 芯片上貌似 Homebrew 和 n 会有些问题，目前解决办法是改用 nvm
+
+## commitizen
+
+- 第一步
+  `npm install commitizen -g`
+
+- 第二步 `npm`或者`Yarn`方式安装`cz-conventional-changelog`
+
+`commitizen init cz-conventional-changelog --save-dev --save-exact`
+`commitizen init cz-conventional-changelog --yarn --dev --exact`
+
+```javascript
+...
+"config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+```
