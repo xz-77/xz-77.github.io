@@ -1,10 +1,10 @@
 ---
 title: lerna
-order: 3
+order: 6
 toc: content
 nav:
-  title: monorepo
-  order: 4
+  title: other
+  order: 6
 ---
 
 [lerna](http://www.febeacon.com/lerna-docs-zh-cn/)
