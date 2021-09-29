@@ -1,0 +1,24 @@
+@mixin ellipsis {
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+@mixin font-family($font: PingFang SC) {
+  font-family: $font, -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica, sans-serif;
+}
+
+@mixin multi-line-ellipsis($lineNum: 2) {
+  display: box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: $lineNum;
+
+  /*! autoprefixer: off */
+  box-orient: vertical;
+
+  /*! autoprefixer: on */
+}

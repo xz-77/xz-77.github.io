@@ -1,0 +1,72 @@
+$hd: 1px; // 基本单位
+
+/** 基础样式 */
+
+/** - 字体颜色 - */
+$color-base: #2a2a2a; //主要用于重要级文字信息、标题文字信息等
+$color-white: #fff; //基本 - 反色
+$color-subtitle: #4a4a4a; //主要用于次重要的文字标题(如表单标题)、图标颜色等
+$color-secondary: #6a6a6a; //主要用于标签文字、次要入口等
+$color-describe: #9a9a9a; //主要用于次要文字信息或副标(如时间等）
+$color-primary: #1e8aff; //主要用于需要强调和突出的文字当前状态、按钮、图标等
+$color-error: #ff3030; //主要用于价格、红点提醒等需要强调内容
+$color-warning: #ffa730; //主要用于突出提示文字、标签、按钮等
+$color-success: #15d877; //成功
+$color-disable: #eee; //主要用于不可点击文字颜色
+
+/** - 边框颜色 - */
+$border-color-base: #f1f1f1; //主要用于界面整体分割线颜色及按钮、标签背景色
+$border-color-grey: #bbb; //主要用于表单框、按钮描边色等
+$border-color-primary: $color-primary; //高亮
+$border-color-error: $color-error; //错误
+$border-color-warning: $color-warning; //警告
+$border-color-success: $color-success; //成功
+
+/** - 页面背景颜色 - */
+$fill-base: #fff; //页面/组件默认背景
+$fill-body: #f6f7f8; //主要用于界面整体背景色
+
+/** - 组件背景颜色 - */
+$fill-tap: #f8f8f8; // 组件默认背景 - 按下反馈
+$fill-grey: #f1f2f5; // 组件灰色背景
+$fill-disabled: #ddd; //禁止点击
+$fill-mask: rgba(0, 0, 0, 0.5); //遮罩层
+$fill-primary-tap: #4ba1ff; //长按钮主操作按下样式
+$fill-primary: $color-primary; //高亮
+$fill-success: $color-success; //成功
+$fill-error: $color-error; //错误
+
+/* - 字体大小 - */
+$font-size-highlight-lg: 40 * $hd;
+$font-size-highlight-md: 38 * $hd;
+$font-size-highlight-sm: 36 * $hd;
+
+$font-size-caption-lg: 34 * $hd;
+$font-size-caption-md: 32 * $hd;
+$font-size-caption-sm: 30 * $hd;
+
+$font-size-content-lg: 28 * $hd;
+$font-size-content-md: 26 * $hd;
+$font-size-content-sm: 24 * $hd;
+
+$font-size-secondary-lg: 22 * $hd;
+$font-size-secondary-md: 20 * $hd;
+
+/** - 圆角 - */
+$border-radius-lg: 20 * $hd;
+$border-radius-md: 12 * $hd;
+$border-radius-sm: 8 * $hd;
+$border-radius-xs: 4 * $hd;
+$border-radius-circle: 50%;
+
+/** - 行高 - */
+$line-height-base: 1; // 单行行高
+$line-height-paragraph: 1.5; // 多行行高
+
+/** - 间距 - */
+
+/** 水平间距 仅用于模块之间距离调用 模块内部距离请勿使用 */
+$h-spacing-md: 32 * $hd;
+
+/** 垂直间距 仅用于模块之间距离调用 模块内部距离请勿使用 */
+$v-spacing-md: 20 * $hd;

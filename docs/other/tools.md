@@ -18,6 +18,7 @@ nav:
 - 软件包管理器 - HomeBrew
 - node 管理工具 - n/nvm
 - 终端 - Terminal - iTerm2
+  - iTerm2 扩展 [Oh My ZSH](https://ohmyz.sh/#install)
 - 长图截图工具 - iShot
 - 容器化技术，用于支持创建和使用 Linux 容器 - docker
 - redis 数据可视化工具 - quickredis(redis)
@@ -82,3 +83,15 @@ rm -rf /Library/Developer/CommandLineTools
     }
   }
 ```
+
+## 切换 bash、zsh
+
+- `chsh -s /bin/bash`
+- `chsh -s /bin/zsh`
+
+## `zsh: command not found: node`问题
+
+- 打开`~.zshrc`
+- `vim .zshrc`
+- 添加一行脚本
+- `source ~.bash_profile`

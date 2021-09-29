@@ -1,9 +1,9 @@
 ---
-title: 概念
+title: monorepo
 order: 1
 toc: content
 nav:
-  title: monorepo
+  title: frame
   order: 4
 ---
 

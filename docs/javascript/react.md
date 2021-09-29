@@ -1,6 +1,6 @@
 ---
 title: react
-order: 1
+order: 2
 toc: content
 nav:
   title: Javascript
@@ -9,9 +9,9 @@ nav:
 
 ![](/assets/react.png)
 
-在 React 应用中，任何可变数据应当只有一个相对应的唯一“数据源”。通常，state 都是首先添加到需要渲染数据的组件中去。然后，如果其他组件也需要这个 state，那么你可以将它提升至这些组件的最近共同父组件中。你应当依靠自上而下的数据流，而不是尝试在不同组件间同步 state。
+在 `React` 应用中，任何可变数据应当只有一个相对应的唯一“数据源”。通常，`state` 都是首先添加到需要渲染数据的组件中去。然后，如果其他组件也需要这个 `state`，那么你可以将它提升至这些组件的最近共同父组件中。你应当依靠自上而下的数据流，而不是尝试在不同组件间同步 `state`。
 
-React 有十分强大的组合模式。我们推荐使用组合而非继承来实现组件间的代码重用。
+`React` 有十分强大的组合模式。我们推荐使用组合而非继承来实现组件间的代码重用。
 
 一个组件原则上只能负责一个功能。如果它需要负责更多的功能，这时候就应该考虑将它拆分成更小的组件
 
@@ -23,18 +23,18 @@ HTML 语义化标签
 
 ### 代码分割
 
-- import()动态加载
-- React.lazy
-- Suspense 组件中渲染 lazy 组件 接受 fallback
-- React.lazy 与 React Router 第三方代码库做基于路由的代码分割
+- `import()`动态加载
+- `React.lazy`
+- `Suspense` 组件中渲染 `lazy` 组件 接受 `fallback`
+- `React.lazy` 与 `React Router` 第三方代码库做基于路由的代码分割
 
 ### context
 
-Context 主要应用场景在于很多不同层级的组件需要访问同样一些的数据。请谨慎使用，因为这会使得组件的复用性变差。
+`Context` 主要应用场景在于很多不同层级的组件需要访问同样一些的数据。请谨慎使用，因为这会使得组件的复用性变差。
 
-如果你只是想避免层层传递一些属性，组件组合（component composition）有时候是一个比 context 更好的解决方案
+如果你只是想避免层层传递一些属性，组件组合（`component composition`）有时候是一个比 context 更好的解决方案
 
-有的时候在组件树中很多不同层级的组件需要访问同样的一批数据。Context 能让你将这些数据向组件树下所有的组件进行“广播”，所有的组件都能访问到这些数据，也能访问到后续的数据更新。使用 context 的通用的场景包括管理当前的 locale，theme，或者一些缓存数据，这比替代方案要简单的多
+有的时候在组件树中很多不同层级的组件需要访问同样的一批数据。`Context` 能让你将这些数据向组件树下所有的组件进行“广播”，所有的组件都能访问到这些数据，也能访问到后续的数据更新。使用 `context` 的通用的场景包括管理当前的 `locale`，theme，或者一些缓存数据，这比替代方案要简单的多
 
 ### 错误边界
 
@@ -429,7 +429,7 @@ class Parent extends React.Component {
 
 ### Render props
 
-render prop 是一个用于告知组件需要渲染什么内容的函数 prop
+`render prop` 是一个用于告知组件需要渲染什么内容的函数 prop
 
 可以与 HOC 结合使用
 
@@ -456,7 +456,7 @@ render prop 是一个用于告知组件需要渲染什么内容的函数 prop
 
 ### 受控组件
 
-使 React 的 state 成为“唯一数据源”。渲染表单的 React 组件还控制着用户输入过程中表单发生的操作。被 React 以这种方式控制取值的表单输入元素就叫做“受控组件”。
+使 `React` 的 state 成为“唯一数据源”。渲染表单的 React 组件还控制着用户输入过程中表单发生的操作。被 React 以这种方式控制取值的表单输入元素就叫做“受控组件”。
 
 ### 非受控组件
 
@@ -465,8 +465,24 @@ render prop 是一个用于告知组件需要渲染什么内容的函数 prop
 
 ### Web Components
 
-React 和 Web Components 为了解决不同的问题而生
+`React` 和 `Web Components` 为了解决不同的问题而生
 
 ## API Reference
 
 ![](/assets/lifecycles.png)
+
+## HOOK
+
+- 在组件之间复用状态逻辑变得简单
+- 复杂组件变得容易理解
+- 可以使用函数式编程
+- Hook 使你在非 class 的情况下可以使用更多的 React 特性
+- Hook 拥抱了函数
+
+###
+
+## 参考链接
+
+[思维导图](https://developer.aliyun.com/article/714785)
+[「2021」高频前端面试题汇总之 React 篇（上）](https://juejin.cn/post/6941546135827775525)
+[「2021」高频前端面试题汇总之 React 篇（下）](https://juejin.cn/post/6940942549305524238)
