@@ -479,8 +479,6 @@ class Parent extends React.Component {
 - Hook 使你在非 class 的情况下可以使用更多的 React 特性
 - Hook 拥抱了函数
 
-###
-
 ## 参考链接
 
 [思维导图](https://developer.aliyun.com/article/714785)
