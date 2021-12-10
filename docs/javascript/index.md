@@ -61,7 +61,7 @@ nav:
 - 如果属性是基本类型，拷贝的就是基本类型的值；
 - 如果属性是内存地址（引用类型），拷贝的就是内存地址 ，
 - 因此如果其中一个对象改变了这个地址，就会影响到另一个对象。即默认拷贝构造函数只是对对象进行浅拷贝复制(逐个成员依次拷贝)，即只复制对象空间而不复制资源。
-- 例如`Object.assign()`、`Array.slice()`都是浅拷贝
+- 例如`Array.slice()`都是浅拷贝
 
 ### 深拷贝
 
@@ -69,6 +69,24 @@ nav:
 - 当对象和它所引用的对象一起拷贝时即发生深拷贝。
 - 深拷贝相比于浅拷贝速度较慢并且花销较大。
 - 例如序列化对象为深拷贝
+
+#### 递归版拷贝
+
+```javascript
+function deepCopy(obj) {
+  let ans = {};
+  const keys = Object.keys(obj);
+  for (let i = 0; i < keys.length; i++) {
+    const value = obj[keys[i]];
+    if (value && typeof value === 'object') {
+      ans[keys[i]] = deepCopy(value);
+    } else {
+      ans[keys[i]] = value;
+    }
+  }
+  return ans;
+}
+```
 
 ## 作用域、执行上下文、作用域链
 
@@ -197,6 +215,102 @@ console.log(bar(7)); // 返回 42
 
 如果在当前的变量对象里面找不到目标变量/函数，就在上一级作用域的变量对象里面查找。若这时找到了目标变量/函数，则停止查找；若找不到，一直回溯到全局作用域的变量对象里查找，若仍找不到目标变量/函数，停止查找
 
+### 函数柯里化
+
+```javascript
+// 简单版
+const primaryCurrying = (fn, ...args) => {
+  return function (...args2) {
+    const newArgs = args2.concat(args);
+    return fn.call(this, ...newArgs);
+  };
+};
+
+function add(a, b) {
+  return a + b;
+}
+
+const a = primaryCurrying(add, 2);
+const result = a(3);
+console.log(result);
+
+const add2 = (arg1) => {
+  let sum = arg1;
+  const tmp = function (arg2) {
+    sum += arg2;
+    return tmp;
+  };
+  tmp.toString = () => {
+    return sum;
+  };
+  return tmp;
+};
+
+console.log(add2(2)(3)(4)(123).toString());
+```
+
+```javascript
+// 中等版
+var primaryCurrying = function (fn, ...args) {
+  return function (...args2) {
+    var newArgs = args.concat(args2);
+    return fn.apply(this, newArgs);
+  };
+};
+
+function curry(fn, length) {
+  length = length || fn.length;
+  return function (...arg2) {
+    if (arg2.length < length) {
+      const combinedArgs = [fn].concat(arg2);
+      return curry(
+        primaryCurrying.apply(this, combinedArgs),
+        length - arg2.length,
+      );
+    } else {
+      return fn.apply(this, arg2);
+    }
+  };
+}
+
+const p = curry(function (a, b, c) {
+  return [a, b, c];
+});
+
+console.log(p('a', 'b', 'c'));
+console.log(p('a', 'b')('c'));
+console.log(p('a')('b')('c'));
+```
+
+### proxy 和 Reflect
+
+```javascript
+// 观察者模式
+
+const queueObservable = new Set();
+
+const observe = (fn) => queueObservable.add(fn);
+const observable = (obj) => new Proxy(obj, { set });
+
+function set(target, key, value, receiver) {
+  const result = Reflect.set(target, key, value, receiver);
+  queueObservable.forEach((v) => v());
+  return result;
+}
+
+const person = observable({
+  name: '章三',
+  age: 20,
+});
+
+function print1() {
+  console.log(`${person.name} ${person.age}`);
+}
+
+observe(print1);
+person.name = '李四';
+```
+
 ## 参考链接
 
 - [浅析 JS 堆、栈、执行栈和 EventLoop](https://juejin.cn/post/6844904159045500936)
@@ -204,3 +318,4 @@ console.log(bar(7)); // 返回 42
 - [Array、HashMap](https://juejin.cn/post/6844903630156333069#heading-1)
 - [RBAC 权限设计](https://www.imqianduan.com/server/511.html)
 - [ACL 权限设计]
+- [前端知识图谱](https://f2e.tech/)
