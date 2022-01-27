@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "xiaoze77.github.io",
+  "name": "xz-77.github.io",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
