@@ -15,3 +15,4 @@ nav:
 - [前端开发登录鉴权方案完全梳理](https://tsejx.github.io/blog/authentication/)
 - [Protocol Buffer](https://zhuanlan.zhihu.com/p/143627360)
 - [RBAC](https://www.imqianduan.com/server/511.html)
+- [vpn](https://agentneo.tech/)
