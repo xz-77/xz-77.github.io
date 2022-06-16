@@ -12,7 +12,11 @@ const config: IConfig = {
   // 单语言配置方式如下
   navs,
   resolve: {
-    includes: ['docs', 'packages/ui/src'],
+    includes: ['docs', 'src'],
+  },
+  alias: {
+    'antd-mobile-taro-ui': 'antd-mobile',
+    demos: process.cwd() + '/src/demos/index.ts',
   },
   menus,
   // locales: [

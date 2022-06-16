@@ -22,22 +22,24 @@ export default (props: IPreviewerProps) => {
   const [isActive, setIsActive] = useState(false);
   const isInactive = meta.mobile !== false && !isActive;
   const activeSelf = useCallback(() => {
-    // const special = new Set(['dot-loading-demo1']);
-    // let cn = '';
-    // if (special.has(props.identifier)) {
-    //   cn = props.identifier.split('-')[1];
-    // } else {
-    //   cn = props.identifier.split('-')[0];
-    // }
+    const special = new Set(['dot-loading-demo1']);
+    let cn = '';
+    if (special.has(props.identifier)) {
+      cn = props.identifier.split('-')[1];
+    } else {
+      cn = props.identifier.split('-')[0];
+    }
 
-    // const demoUrl = `http://172.16.30.230:10086/#/pages/${cn}/index`;
+    console.log('xn->', props);
+
+    const demoUrl = `https://xz-77.github.io/antd-mobile-taro-ui/#/pages/${cn}/index`;
 
     window.postMessage(
       {
         type: ACTIVE_MSG_TYPE,
         value: JSON.stringify({
           identifier: props.identifier,
-          demoUrl: props.demoUrl,
+          demoUrl,
           simulator: props.simulator,
         }),
       },
