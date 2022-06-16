@@ -1,3 +1,7 @@
+---
+toc: content
+---
+
 # Checkbox 勾选框
 
 <code src="./demo/demo.tsx"></code>
