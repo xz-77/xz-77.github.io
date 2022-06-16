@@ -1,13 +1,6 @@
----
-title: 概念
-order: 1
-toc: content
-nav:
-  title: css
-  order: 2
----
+# CSS 设计
 
-## 定义
+## 概念
 
 CSS 又称为叠层样式表，是我们前端开发人员在 HTML/CSS/Javascript 中应该学习的一门技术技。HTML 用于定义内容的结构和语义，CSS 用于设计风格和布局，Javascript 允许我们在 Web 页面上完成复杂的功能。
 

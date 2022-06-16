@@ -7,7 +7,6 @@ nav:
   order: 6
 ---
 
-
 ## 安装
 
 `nvm install <version>`
