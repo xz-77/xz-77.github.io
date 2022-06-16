@@ -4,14 +4,16 @@
 /node_modules
 /npm-debug.log*
 /yarn-error.log
+/yarn.lock
 /package-lock.json
 
 # production
-/dist
+/es
 /docs-dist
 
 # misc
-.DS_Stores
+.DS_Store
+/coverage
 
 # umi
 .umi
