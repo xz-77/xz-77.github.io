@@ -1,4 +1,4 @@
-# `antd-mobile-taro-ui`指南
+[antd-mobile-taro-ui](https://github.com/xz-77/antd-mobile-taro-ui)
 
 ## 核心思路
 

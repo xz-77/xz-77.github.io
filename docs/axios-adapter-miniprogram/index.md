@@ -1,5 +1,3 @@
-# 指南
-
 [axios-adapter-miniprogram](https://github.com/xz-77/axios-adapter-miniprogram)
 
 ## 新手上路
