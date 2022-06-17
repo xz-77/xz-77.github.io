@@ -9,6 +9,10 @@ export const menus = {
   ],
   '/components': [
     {
+      title: '指南',
+      path: '/components',
+    },
+    {
       title: 'Common',
       children: components.common,
     },
