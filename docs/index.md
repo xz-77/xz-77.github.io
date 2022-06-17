@@ -1,10 +1,8 @@
 ---
 hero:
-  title: design
-  desc: 个人站点
-  actions:
-    - text: 快速进入
-      link: /other
+  title:
+  desc: 一个个人站点，这里没啥可写的
+
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: axios-adapter-miniprogram

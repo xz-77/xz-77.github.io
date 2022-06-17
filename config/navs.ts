@@ -32,5 +32,10 @@ export const navs = [
   },
   {
     title: '思维导图',
+    path: '/mind-map',
+  },
+  {
+    title: '解决方案',
+    path: '/solution',
   },
 ];
