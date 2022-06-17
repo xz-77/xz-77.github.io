@@ -1,6 +1,6 @@
 [antd-mobile-taro-ui](https://github.com/xz-77/antd-mobile-taro-ui)
 
-## 新手上路
+## 新手指南
 
 ```bash
 $ yarn add antd-mobile-taro-ui

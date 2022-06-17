@@ -3,7 +3,7 @@ export const navs = [
     title: 'axios-adapter-miniprogram',
     children: [
       {
-        title: '指南',
+        title: '新手指南',
         path: '/axios-adapter-miniprogram',
       },
       {
@@ -17,8 +17,12 @@ export const navs = [
     // path: '/components',
     children: [
       {
-        title: '组件',
+        title: '新手指南',
         path: '/components',
+      },
+      {
+        title: '组件',
+        path: '/components/button',
       },
       {
         title: 'GitHub',

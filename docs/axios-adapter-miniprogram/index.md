@@ -1,6 +1,6 @@
 [axios-adapter-miniprogram](https://github.com/xz-77/axios-adapter-miniprogram)
 
-## 新手上路
+## 新手指南
 
 1. 基于 `Axios` 的 `adapter` 方法兼容原生 `wx` 小程序网络请求(没有使用除 `axios` 以外第三方包)
 2. 兼容网络请求 `API` 与 `Axios` 一致，具体调用文档看[Axios 官网](https://www.axios-http.cn/docs/intro)
