@@ -4,7 +4,9 @@ toc: content
 
 # Checkbox 勾选框
 
-<code src="./demo/demo.tsx"></code>
+<code src="./demos/demo1.tsx"></code>
+
+<code src="./demos/demo2.tsx"></code>
 
 ## 属性
 
