@@ -6,7 +6,7 @@
 - 尽最大可能与 `Ant Design Mobile 5.x` 的 api 保持 100%一致
 - 预计总体代码 75%会使用 `Ant Design Mobile` 的源码，25%处理小程序带来的兼容问题
 
-## 想法
+## 个人想法
 
 组件 API 的设计本身就是一件公说公有理，婆说婆有理的一件事情，而[antd-mobile](https://mobile.ant.design/zh)相对来说有很大的使用用户，[下载量](https://www.npmjs.com/package/antd-mobile)每周都十分可观，尤其是在 5.x 版本之后整个库的设计和源码质量都十分具有值得学习的地方，我自己也从中学到了很多代码的实现方式，但是这么好的东西目前只能应用于 h5 觉得有点太过于暴殄天物，所以我的想法是结合[Taro 框架](https://taro-docs.jd.com/taro/docs/)和[antd-mobile](https://mobile.ant.design/zh)进行结合，以`antd-mobile`为设计标准做一个小程序的组件库
 

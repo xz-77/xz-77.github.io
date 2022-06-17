@@ -1,0 +1,24 @@
+# 指南
+
+## 为什么要写这个库
+
+- 现在小程序的开发越来越多，每个小程序在网络请求方面都有官方自己的实现，但是不论在请求参数还是返回属性甚至使用习惯上，都不是很统一
+- 希望和 h5、pc、node 端上进行对齐
+- 相对来说有稍微看过 axios 的源码，而且 axios 的普及率比较高，如果和 axios 对齐，大家都比较熟悉，好上手
+- 希望通过这个库来让开发人员不论从使用习惯，api 调用都和其他端对齐，在网络请求这个节点上磨平不同端所带来的影响
+
+## 解决方案
+
+1. 使用 Axios 并扩展 Axios 的 adapter 方法
+2. [Axios](https://www.axios-http.cn/docs/intro)
+
+## 新手上路
+
+1. 基于 Axios 的 adapter 方法兼容原生 wx 小程序网络请求(没有使用除 axios 以外第三方包)
+2. 兼容网络请求 API 与 Axios 一致，具体调用文档看 Axios 官网
+3. 返回字段与 Axios 保持一致，这里没有使用 wx 小程序返回的原生字段，方便后续其他端网络请求的扩展
+4. 目前仅扩展 wx 小程序网路请求
+
+## 于 axios 不同的地方
+
+- 微信的 form 表单提交[使用 wx.request 发送 multipart/form-data 请求的方法](https://developers.weixin.qq.com/community/develop/article/doc/0000cc0e5bc5d093c6f8be17254c13)

@@ -1,5 +1,18 @@
 export const navs = [
   {
+    title: 'axios-adapter-miniprogram',
+    children: [
+      {
+        title: '指南',
+        path: '/axios-adapter-miniprogram',
+      },
+      {
+        title: 'GitHub',
+        path: 'https://github.com/xz-77/axios-adapter-miniprogram',
+      },
+    ],
+  },
+  {
     title: 'antd-mobile-taro-ui',
     // path: '/components',
     children: [
@@ -16,5 +29,8 @@ export const navs = [
   {
     title: '知识点',
     path: '/knowledge',
+  },
+  {
+    title: '思维导图',
   },
 ];
