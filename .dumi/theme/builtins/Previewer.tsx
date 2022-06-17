@@ -22,15 +22,9 @@ export default (props: IPreviewerProps) => {
   const [isActive, setIsActive] = useState(false);
   const isInactive = meta.mobile !== false && !isActive;
   const activeSelf = useCallback(() => {
-    const special = new Set(['dot-loading-demo1']);
-    let cn = '';
-    if (special.has(props.identifier)) {
-      cn = props.identifier.split('-')[1];
-    } else {
-      cn = props.identifier.split('-')[0];
-    }
+    const index = props.identifier.indexOf('-demo1');
 
-    console.log('xn->', props);
+    const cn = props.identifier.slice(0, index);
 
     const demoUrl = `https://xz-77.github.io/antd-mobile-taro-ui/#/pages/${cn}/index`;
 
