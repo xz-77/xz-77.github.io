@@ -1,5 +1,13 @@
 [antd-mobile-taro-ui](https://github.com/xz-77/antd-mobile-taro-ui)
 
+## 新手上路
+
+```bash
+$ yarn add antd-mobile-taro-ui
+# or
+$ npm install antd-mobile-taro-ui --save-dev
+```
+
 ## 核心思路
 
 - 基于 `Taro` 框架以 `antd-mobile` 的设计为标准
