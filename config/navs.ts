@@ -1,14 +1,20 @@
 export const navs = [
   {
     title: 'antd-mobile-taro-ui',
-    path: '/components',
+    // path: '/components',
+    children: [
+      {
+        title: '组件',
+        path: '/components',
+      },
+      {
+        title: 'GitHub',
+        path: 'https://github.com/xz-77/antd-mobile-taro-ui',
+      },
+    ],
   },
   {
     title: '知识点',
     path: '/knowledge',
-  },
-  {
-    title: 'GitHub',
-    path: 'https://github.com/xz-77/xz-77.github.io',
   },
 ];

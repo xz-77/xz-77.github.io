@@ -12,7 +12,9 @@ toc: content
 
 ## 示例
 
-<code src="./demo/demo.tsx"></code>
+<code src="./demos/demo1.tsx"></code>
+
+<code src="./demos/demo2.tsx"></code>
 
 ## Button
 

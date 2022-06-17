@@ -11,7 +11,8 @@
     "declaration": true,
     "baseUrl": ".",
     "paths": {
-      "demos": ["src/demos/index.ts"]
+      "demos": ["src/demos/index.ts"],
+      "antd-mobile-taro-ui": ["antd-mobile"]
     }
   }
 }
