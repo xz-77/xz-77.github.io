@@ -33,4 +33,54 @@ export const menus = {
       children: components.feedback,
     },
   ],
+  '/knowledge': [
+    {
+      title: '数据结构与算法',
+      children: [
+        '/knowledge/data-structures-and-algorithms/data-structures',
+        '/knowledge/data-structures-and-algorithms/tree',
+        '/knowledge/data-structures-and-algorithms/line',
+        '/knowledge/data-structures-and-algorithms/stack',
+        '/knowledge/data-structures-and-algorithms/kmp',
+      ],
+    },
+    {
+      title: 'Javascript',
+      children: [
+        '/knowledge/javascript/fn-chemistry',
+        '/knowledge/javascript/tail-call',
+      ],
+    },
+    {
+      title: '计算机网络',
+      children: [
+        '/knowledge/computer-network/application-layer',
+        '/knowledge/computer-network/network-layer',
+        '/knowledge/computer-network/transport-layer',
+        '/knowledge/computer-network/http-prototype',
+        '/knowledge/computer-network/http-cache',
+        '/knowledge/computer-network/sop',
+        '/knowledge/computer-network/http-version',
+      ],
+    },
+    {
+      title: 'React',
+      children: [
+        '/knowledge/react/fiber',
+        '/knowledge/react/diff',
+        '/knowledge/react/diff2',
+      ],
+    },
+    {
+      title: 'CSS',
+      children: [
+        '/knowledge/css/css-design',
+        '/knowledge/css/redraw-rearrange',
+      ],
+    },
+    {
+      title: 'Tree Shaking',
+      path: '/knowledge/tree-shaking',
+    },
+  ],
 };
