@@ -28,7 +28,7 @@ npx husky-init && yarn              # Yarn 1
 
 [commitlint 官网](https://github.com/conventional-changelog/commitlint#getting-started)
 
-```
+```bash
 # Install Husky v6
 npm install husky --save-dev
 # or

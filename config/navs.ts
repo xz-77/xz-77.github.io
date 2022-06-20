@@ -31,6 +31,19 @@ export const navs = [
     ],
   },
   {
+    title: 'verify-fabric',
+    children: [
+      {
+        title: '新手指南',
+        path: '/fabric',
+      },
+      {
+        title: 'GitHub',
+        path: 'https://github.com/xz-77/verify-fabric',
+      },
+    ],
+  },
+  {
     title: '知识点',
     path: '/knowledge',
   },
