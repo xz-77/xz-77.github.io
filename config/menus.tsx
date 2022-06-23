@@ -79,8 +79,12 @@ export const menus = {
       ],
     },
     {
-      title: 'Tree Shaking',
-      path: '/knowledge/tree-shaking',
+      title: '架构',
+      children: [
+        '/knowledge/frame/frame-design',
+        '/knowledge/frame/tree-shaking',
+        '/knowledge/frame/monorepo-design',
+      ],
     },
   ],
 };
