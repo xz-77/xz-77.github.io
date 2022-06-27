@@ -49,6 +49,7 @@ export const menus = {
       children: [
         '/knowledge/javascript/fn-chemistry',
         '/knowledge/javascript/tail-call',
+        '/knowledge/javascript/program-paradigm',
       ],
     },
     {

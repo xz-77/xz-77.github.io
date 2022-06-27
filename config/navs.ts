@@ -14,7 +14,6 @@ export const navs = [
   },
   {
     title: 'antd-mobile-taro-ui',
-    // path: '/components',
     children: [
       {
         title: '新手指南',
