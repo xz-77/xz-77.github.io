@@ -4469,6 +4469,11 @@ ansi-wrap@0.1.0, ansi-wrap@^0.1.0:
   resolved "https://registry.npm.taobao.org/ansi-wrap/download/ansi-wrap-0.1.0.tgz#a82250ddb0015e9a27ca82e82ea603bbfa45efaf"
   integrity sha1-qCJQ3bABXponyoLoLqYDu/pF768=
 
+antd-mobile-icons@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npmmirror.com/antd-mobile-icons/-/antd-mobile-icons-0.3.0.tgz#9b29e4588a62370909061f10ff0579aabb0b32a9"
+  integrity sha512-rqINQpJWZWrva9moCd1Ye695MZYWmqLPE+bY8d2xLRy7iSQwPsinCdZYjpUPp2zL/LnKYSyXxP2ut2A+DC+whQ==
+
 antd-mobile-taro-ui@0.0.1-3:
   version "0.0.1-3"
   resolved "https://registry.npmmirror.com/antd-mobile-taro-ui/-/antd-mobile-taro-ui-0.0.1-3.tgz#fae0ba27a5d15aecf4696f18ff208e315d1149fa"
