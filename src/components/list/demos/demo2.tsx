@@ -1,4 +1,5 @@
-import { Image, List } from 'antd-mobile-taro-ui';
+import { List } from 'antd-mobile-taro-ui';
+import { Image } from '@tarojs/components';
 import React from 'react';
 import { users } from './users';
 
@@ -11,10 +12,8 @@ export default () => {
           prefix={
             <Image
               src={user.avatar}
-              style={{ borderRadius: 20 }}
-              fit="cover"
-              width={40}
-              height={40}
+              style={{ borderRadius: 20, width: 40, height: 40 }}
+              mode="aspectFit"
             />
           }
           description={user.description}
