@@ -29,9 +29,12 @@ $ install-peerdeps verify-fabric -dev
 #### in .eslintrc.js
 
 ```javascript
+const eslint = require('verify-fabric/dist/eslint');
+
 module.exports = {
-  extends: [require.resolve('verify-fabric/dist/eslint')],
+  ...eslint,
   rules: {
+    ...eslint.rules,
     // your rules
   },
 };
@@ -40,9 +43,12 @@ module.exports = {
 #### in .stylelintrc.js
 
 ```javascript
+const stylelint = require('verify-fabric/dist/stylelint');
+
 module.exports = {
-  extends: [require.resolve('verify-fabric/dist/stylelint')],
+  ...stylelint,
   rules: {
+    ...stylelint.rules,
     // your rules
   },
 };
