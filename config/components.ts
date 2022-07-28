@@ -3,6 +3,7 @@ export const components = {
   layout: [
     '/components/auto-center',
     '/components/divider',
+    '/components/grid',
     '/components/space',
   ],
   dataDisplay: ['/components/list'],
