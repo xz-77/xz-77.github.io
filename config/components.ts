@@ -1,6 +1,10 @@
 export const components = {
   common: ['/components/button'],
-  layout: ['/components/space', '/components/divider'],
+  layout: [
+    '/components/auto-center',
+    '/components/divider',
+    '/components/space',
+  ],
   dataDisplay: ['/components/list'],
   dataEntry: ['/components/checkbox', '/components/radio'],
   feedback: [

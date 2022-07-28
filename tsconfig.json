@@ -12,7 +12,8 @@
     "baseUrl": ".",
     "paths": {
       "demos": ["src/demos/index.ts"],
-      "wrapper": ["src/wrapper/index.tsx"]
+      "wrapper": ["src/wrapper/index.tsx"],
+      "antd-mobile-taro-ui": ["antd-mobile/es/index"]
     }
   }
 }

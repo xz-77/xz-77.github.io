@@ -17,6 +17,7 @@ const config: IConfig = {
   alias: {
     demos: process.cwd() + '/src/demos/index.ts',
     wrapper: process.cwd() + '/src/wrapper/index.tsx',
+    'antd-mobile-taro-ui': 'antd-mobile',
   },
   menus,
   // locales: [
