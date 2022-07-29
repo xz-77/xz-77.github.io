@@ -18,6 +18,7 @@ const config: IConfig = {
     demos: process.cwd() + '/src/demos/index.ts',
     wrapper: process.cwd() + '/src/wrapper/index.tsx',
     'antd-mobile-taro-ui': 'antd-mobile',
+    '@tarojs/components': process.cwd() + '/src/taro/index.ts',
   },
   menus,
   // locales: [
