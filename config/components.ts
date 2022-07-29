@@ -4,6 +4,7 @@ export const components = {
     '/components/auto-center',
     '/components/divider',
     '/components/grid',
+    '/components/safe-area',
     '/components/space',
   ],
   dataDisplay: ['/components/list'],
