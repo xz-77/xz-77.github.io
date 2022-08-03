@@ -21,6 +21,10 @@ export const menus = {
       children: components.layout,
     },
     {
+      title: '导航',
+      children: components.navigation,
+    },
+    {
       title: '信息展示',
       children: components.dataDisplay,
     },
