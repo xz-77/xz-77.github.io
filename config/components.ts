@@ -7,7 +7,11 @@ export const components = {
     '/components/safe-area',
     '/components/space',
   ],
-  navigation: ['/components/capsule-tabs', '/components/jumbo-tabs'],
+  navigation: [
+    '/components/capsule-tabs',
+    '/components/jumbo-tabs',
+    '/components/tabs',
+  ],
   dataDisplay: ['/components/list'],
   dataEntry: ['/components/checkbox', '/components/radio'],
   feedback: [

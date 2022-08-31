@@ -44,13 +44,4 @@ $ npm install antd-mobile-taro-ui --save-dev
 
 _由于小程序不支持 SVG 所以 antd 所有用到 svg 图片的地方这里会使用 css3 动画或者图片的解决方案，后期计划一部分用 iconfont 替代_
 
-| `components` | `name`     | `state` | `difference`                                                                           |
-| ------------ | ---------- | ------- | -------------------------------------------------------------------------------------- |
-| `Checkbox`   | 复选框     | `done`  | -                                                                                      |
-| `Radio`      | 单选框     | `done`  | -                                                                                      |
-| `Space`      | 间距       | `done`  | -                                                                                      |
-| `DotLoading` | 点状加载中 | `done`  | 由于小程序不支持 svg，这里使用 css3 动画，动画与 antd 表现一致，但是不支持自动适配字号 |
-| `Button`     | 按钮       | `done`  | 不支持 type、onMouseDown、onMouseUp 属性                                               |
-| `List`       | 列表       | `done`  | antd-mobile 的 demo4 和 demo5 不支持展示                                               |
-| `Mask`       | 遮罩层     | `done`  | 有修改精简实现方式，demo 展示是一样的                                                  |
-| `Popup`      | 弹出层     | `done`  | react-spring 动画不能复用，使用 transition 实现动画                                    |
+请扫描上面的二维码查看组件列表或访问[antd-mobile-taro-ui](https://xz-77.github.io/components)
