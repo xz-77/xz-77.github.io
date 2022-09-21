@@ -36,6 +36,10 @@ export const menus = {
       title: '反馈',
       children: components.feedback,
     },
+    {
+      title: '引导提示',
+      children: components.guidance,
+    },
   ],
   '/knowledge': [
     {

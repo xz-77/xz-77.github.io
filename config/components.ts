@@ -19,4 +19,5 @@ export const components = {
     '/components/popup',
     '/components/dot-loading',
   ],
+  guidance: ['/components/badge'],
 };
