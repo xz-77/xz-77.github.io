@@ -2,7 +2,7 @@
 toc: content
 ---
 
-# Loading 加载中
+# Dot Loading 加载中
 
 用于页面和区块的加载中状态。
 
@@ -20,4 +20,4 @@ toc: content
 | ----- | ---- | --------------------------------------------- | ----------- |
 | color | 颜色 | `'default' \| 'primary' \| 'white' \| string` | `'default'` |
 
-`DotLoading` 的大小会自动根据当前的文字大小进行调整。
+<!-- `DotLoading` 的大小会自动根据当前的文字大小进行调整。 -->

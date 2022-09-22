@@ -19,5 +19,5 @@ export const components = {
     '/components/popup',
     '/components/dot-loading',
   ],
-  guidance: ['/components/badge'],
+  guidance: ['/components/badge', '/components/notice-bar'],
 };
