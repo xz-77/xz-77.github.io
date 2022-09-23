@@ -47,7 +47,7 @@ export const menus = {
       path: '/iconfont',
     },
     {
-      title: 'iconfont',
+      title: 'Icon 图标',
       path: '/iconfont/icons',
     },
   ],
