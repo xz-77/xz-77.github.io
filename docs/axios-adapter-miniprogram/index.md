@@ -1,4 +1,4 @@
-[axios-adapter-miniprogram](https://github.com/xz-77/axios-adapter-miniprogram)
+GitHub 仓库: [axios-adapter-miniprogram](https://github.com/xz-77/axios-adapter-miniprogram)
 
 ## 新手指南
 

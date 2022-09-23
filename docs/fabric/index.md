@@ -1,8 +1,8 @@
-# 新手指南
+GitHub 仓库: [verify-fabric](https://github.com/xz-77/verify-fabric)
 
-[verify-fabric](https://github.com/xz-77/verify-fabric)
+## 新手指南
 
-## 一个包含 prettier，eslint，stylelint 的配置文件合集
+- 一个包含 prettier，eslint，stylelint 的配置文件合集
 
 ### 安装 verify-fabric
 

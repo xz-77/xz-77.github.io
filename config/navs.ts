@@ -1,46 +1,19 @@
 export const navs = [
   {
     title: 'axios-adapter-miniprogram',
-    children: [
-      {
-        title: '新手指南',
-        path: '/axios-adapter-miniprogram',
-      },
-      {
-        title: 'GitHub',
-        path: 'https://github.com/xz-77/axios-adapter-miniprogram',
-      },
-    ],
+    path: '/axios-adapter-miniprogram',
   },
   {
     title: 'antd-mobile-taro-ui',
-    children: [
-      {
-        title: '新手指南',
-        path: '/components',
-      },
-      {
-        title: '组件',
-        path: '/components/button',
-      },
-      {
-        title: 'GitHub',
-        path: 'https://github.com/xz-77/antd-mobile-taro-ui',
-      },
-    ],
+    path: '/components',
+  },
+  {
+    title: 'antd-mobile-taro-icons',
+    path: '/iconfont',
   },
   {
     title: 'verify-fabric',
-    children: [
-      {
-        title: '新手指南',
-        path: '/fabric',
-      },
-      {
-        title: 'GitHub',
-        path: 'https://github.com/xz-77/verify-fabric',
-      },
-    ],
+    path: '/fabric',
   },
   {
     title: '知识点',

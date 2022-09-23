@@ -41,6 +41,16 @@ export const menus = {
       children: components.guidance,
     },
   ],
+  '/iconfont': [
+    {
+      title: '新手指南',
+      path: '/iconfont',
+    },
+    {
+      title: 'iconfont',
+      path: '/iconfont/icons',
+    },
+  ],
   '/knowledge': [
     {
       title: '数据结构与算法',

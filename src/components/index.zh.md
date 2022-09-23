@@ -1,4 +1,4 @@
-[antd-mobile-taro-ui](https://github.com/xz-77/antd-mobile-taro-ui)
+GitHub 仓库: [antd-mobile-taro-ui](https://github.com/xz-77/antd-mobile-taro-ui)
 
 ## 新手指南
 
