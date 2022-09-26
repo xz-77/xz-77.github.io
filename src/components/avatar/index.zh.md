@@ -12,7 +12,7 @@ toc: content
 
 ## 与`antd-mobile`的差异
 
-使用的是 Taro 的 Image 组建,所以不支持`fit`属性，新增 fallback 属性，其他的直接调用`Taro`的`images`属性即可
+使用的是 `Taro` 的 `Image` 组建,所以不支持`fit`属性，新增 `fallback` 属性，其他的直接调用 `Taro` 的 `Image` 相关属性即可
 
 ## 示例
 
