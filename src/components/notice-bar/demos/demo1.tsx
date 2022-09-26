@@ -2,7 +2,7 @@ import React from 'react';
 import { Text } from '@tarojs/components';
 import { NoticeBar, Space } from 'antd-mobile-taro-ui';
 import { DemoBlock, lorem } from 'demos';
-// import { CloseIcon } from 'antd-mobile-taro-icons';
+import { CloseIcon } from 'antd-mobile-taro-icons';
 
 const demoLongText = lorem.generateWords(20);
 
@@ -28,7 +28,11 @@ export default () => {
 
       <DemoBlock title="自定义" padding="0" background="transparent">
         <Space block direction="vertical">
-          {/* <NoticeBar extra={<CloseIcon style={{ fontSize: 18 }} />} icon={<CloseIcon />} content={'自定义图标'} /> */}
+          <NoticeBar
+            extra={<CloseIcon style={{ fontSize: 18 }} />}
+            icon={<CloseIcon />}
+            content={'自定义图标'}
+          />
           <NoticeBar
             extra={
               <Space style={{ '--gap': '12px' }}>

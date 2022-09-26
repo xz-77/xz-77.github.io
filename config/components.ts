@@ -12,7 +12,7 @@ export const components = {
     '/components/jumbo-tabs',
     '/components/tabs',
   ],
-  dataDisplay: ['/components/avatar', '/components/list'],
+  dataDisplay: ['/components/avatar', '/components/card', '/components/list'],
   dataEntry: ['/components/checkbox', '/components/radio'],
   feedback: [
     '/components/mask',
