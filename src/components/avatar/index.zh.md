@@ -1,3 +1,7 @@
+---
+toc: content
+---
+
 # Avatar 头像
 
 用来代表用户或事物。
