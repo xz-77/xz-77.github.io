@@ -15,8 +15,10 @@ export const components = {
   dataDisplay: [
     '/components/avatar',
     '/components/card',
-    '/components/steps',
     '/components/list',
+    '/components/steps',
+    '/components/tag',
+    '/components/footer',
   ],
   dataEntry: ['/components/checkbox', '/components/radio'],
   feedback: [

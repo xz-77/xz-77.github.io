@@ -13,9 +13,7 @@
     "paths": {
       "demos": ["src/demos/index.ts"],
       "wrapper": ["src/wrapper/index.tsx"],
-      "antd-mobile-taro-ui": ["antd-mobile/es/index"],
-      "@tarojs/components": ["src/taro/index.ts"],
-      "antd-mobile-taro-icons": ["antd-mobile-icons/es/index"]
+      "@tarojs/components": ["src/taro/index.ts"]
     }
   }
 }

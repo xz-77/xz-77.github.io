@@ -27,9 +27,7 @@
     ]
   },
   "dependencies": {
-    "@tarojs/components": "^3.5.0",
-    "antd-mobile": "5.19.0",
-    "antd-mobile-icons": "^0.3.0",
+    "antd-mobile": "5.24.0",
     "react": "^16.12.0 || ^17.0.0"
   },
   "devDependencies": {

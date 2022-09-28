@@ -17,9 +17,9 @@ const config: IConfig = {
   alias: {
     demos: process.cwd() + '/src/demos/index.ts',
     wrapper: process.cwd() + '/src/wrapper/index.tsx',
-    'antd-mobile-taro-ui': 'antd-mobile',
+    'antd-mobile-taro-ui': 'antd-mobile', // 避免编译报错，指定一个路径进行重定向
     '@tarojs/components': process.cwd() + '/src/taro/index.ts',
-    'antd-mobile-taro-icons': 'antd-mobile-icons',
+    'antd-mobile-taro-icons': process.cwd() + '/src/taro/index.ts', // 避免编译报错，指定一个路径进行重定向
   },
   menus,
   // locales: [
