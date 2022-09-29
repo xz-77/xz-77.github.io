@@ -28,8 +28,9 @@ export const components = {
   ],
   feedback: [
     '/components/mask',
-    '/components/popup',
     '/components/dot-loading',
+    '/components/popup',
+    '/components/progress-bar',
   ],
   guidance: ['/components/badge', '/components/notice-bar'],
 };
