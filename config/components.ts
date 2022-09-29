@@ -20,7 +20,12 @@ export const components = {
     '/components/tag',
     '/components/footer',
   ],
-  dataEntry: ['/components/checkbox', '/components/input', '/components/radio'],
+  dataEntry: [
+    '/components/checkbox',
+    '/components/input',
+    '/components/search-bar',
+    '/components/radio',
+  ],
   feedback: [
     '/components/mask',
     '/components/popup',
