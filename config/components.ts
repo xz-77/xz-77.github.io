@@ -25,6 +25,7 @@ export const components = {
     '/components/input',
     '/components/search-bar',
     '/components/radio',
+    '/components/stepper',
   ],
   feedback: [
     '/components/mask',
