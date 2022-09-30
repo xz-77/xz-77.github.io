@@ -31,6 +31,7 @@ export const components = {
     '/components/dot-loading',
     '/components/popup',
     '/components/progress-bar',
+    '/components/progress-circle',
   ],
   guidance: ['/components/badge', '/components/notice-bar'],
 };

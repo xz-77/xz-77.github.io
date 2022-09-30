@@ -1,3 +1,7 @@
+---
+toc: content
+---
+
 # ProgressBar 进度条
 
 用条状图形表示百分比进度。
