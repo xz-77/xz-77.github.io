@@ -11,6 +11,10 @@ toc: content
 - 适用于标记事物的属性和维度。
 - 进行分类。
 
+## 与`antd-mobile`的差异
+
+无
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>
