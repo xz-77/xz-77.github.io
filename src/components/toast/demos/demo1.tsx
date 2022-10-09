@@ -8,6 +8,12 @@ import type { ToastHandler } from 'antd-mobile/es/components/toast';
 export default () => {
   const handler = useRef<ToastHandler>();
 
+  useEffect(() => {
+    return () => {
+      Toast.clear();
+    };
+  });
+
   return (
     <>
       <DemoBlock title="基础用法">
@@ -23,7 +29,6 @@ export default () => {
         >
           轻提示
         </Button>
-        {/* <InternalToast visible content='xxx' icon='loading'></InternalToast> */}
       </DemoBlock>
 
       <DemoBlock title="图标">
