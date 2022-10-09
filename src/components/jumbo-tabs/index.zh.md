@@ -10,6 +10,10 @@ toc: content
 
 选项需要有进一步描述时，用在展示型界面的列表或模块中。
 
+## 与`antd-mobile`的差异
+
+交互不变，实现方式重写，暂时没有实现`antd mobile`的**ScrollMask 滚动两侧遮罩效果**，另外动画被替换使用微信小程序的`ScrollView`实现
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>

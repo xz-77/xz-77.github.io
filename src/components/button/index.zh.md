@@ -10,6 +10,10 @@ toc: content
 
 标记了一个或封装一组操作命令，响应用户点击行为，触发相应的业务逻辑。
 
+## 与`antd-mobile`的差异
+
+不支持`type`、`onMouseDown`、`onMouseUp`属性
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>

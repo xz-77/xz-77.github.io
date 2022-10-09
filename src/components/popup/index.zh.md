@@ -16,6 +16,8 @@ toc: content
 
 `stopPropagation`
 
+`react-spring`动画不能复用，使用`transition`实现动画
+
 ## Popup
 
 ### 示例

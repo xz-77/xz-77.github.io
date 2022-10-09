@@ -10,6 +10,10 @@ toc: content
 
 适用于产品化的新消息、新功能、新服务等内容的提醒，通过醒目视觉形式吸引用户处理。
 
+## 与`antd-mobile`的差异
+
+不支持`color`参数,请使用`--color`变量
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>

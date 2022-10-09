@@ -10,6 +10,12 @@ toc: content
 
 当前内容需要分成同层级结构的组，进行内容切换展示，常用在表单或者列表的顶部。
 
+## 与`antd-mobile`的差异
+
+交互不变，实现方式重写，暂时没有实现`antd mobile`的**ScrollMask 滚动两侧遮罩效果**，另外动画被替换使用微信小程序的`ScrollView`实现
+
+横线的交互动画稍为有点不同
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>

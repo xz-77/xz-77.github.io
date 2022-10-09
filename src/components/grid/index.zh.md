@@ -10,6 +10,10 @@ toc: content
 
 在具有推荐性质较强的页面中作为功能入口使用，例如首页。
 
+## 与`antd-mobile`的差异
+
+由于`number`类型会被加上`px`单位，内部对 `span` 参数进行数据类型转化 `number`->`string`,结果不影响
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>

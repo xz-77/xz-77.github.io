@@ -10,6 +10,10 @@ toc: content
 
 适用于当前页面内信息的通知，是一种较醒目的页面内通知方式。
 
+## 与`antd-mobile`的差异
+
+图标与`antd-mobile`稍稍不同
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>
