@@ -16,6 +16,7 @@ export const components = {
     '/components/avatar',
     '/components/card',
     '/components/list',
+    '/components/page-indicator',
     '/components/steps',
     '/components/tag',
     '/components/footer',
