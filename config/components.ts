@@ -35,6 +35,7 @@ export const components = {
     '/components/progress-bar',
     '/components/progress-circle',
     '/components/result',
+    '/components/skeleton',
     '/components/toast',
   ],
   guidance: ['/components/badge', '/components/notice-bar'],
