@@ -10,6 +10,10 @@ toc: content
 
 当网页被全屏展示时，可借助安全区实现自动适配。
 
+## 与`antd-mobile`的差异
+
+无
+
 ## 说明
 
 SafeArea 组件是用来在全面屏下提供自适应的边距调整，它的底层实现其实是 `env(safe-area-inset-xxx)`。
