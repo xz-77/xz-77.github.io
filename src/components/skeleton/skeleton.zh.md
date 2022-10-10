@@ -1,3 +1,7 @@
+---
+toc: content
+---
+
 # Skeleton 骨架屏
 
 用图形表示内容占位。
