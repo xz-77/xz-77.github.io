@@ -18,9 +18,7 @@ toc: content
 
 **注意：**
 
-需要手动通过调用 `Toast` 上的 `clear` 方法关闭所打开的提示，通常用于路由监听中，处理路由前进、后退不能关闭提示的问题。
-
-原因：小程序在退出页面的情况下
+需要手动通过调用 `Toast` 上的 `clear` 方法关闭所打开的提示，通常用于路由监听中，处理路由前进、后退、页面卸载不能关闭提示的问题。
 
 ```javascript
 useEffect(() => {
@@ -32,7 +30,7 @@ useEffect(() => {
 
 另：不支持下列属性
 
-`getContainer`、`stopPropagation`
+`getContainer`
 
 ## 示例
 
