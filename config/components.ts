@@ -10,6 +10,7 @@ export const components = {
   navigation: [
     '/components/capsule-tabs',
     '/components/jumbo-tabs',
+    '/components/nav-bar',
     '/components/tabs',
   ],
   dataDisplay: [
