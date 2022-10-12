@@ -2,7 +2,7 @@
 toc: content
 ---
 
-# Dot Loading 加载中
+# DotLoading 加载中
 
 用于页面和区块的加载中状态。
 
