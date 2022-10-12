@@ -29,8 +29,9 @@ export const components = {
     '/components/stepper',
   ],
   feedback: [
-    '/components/mask',
     '/components/dot-loading',
+    '/components/spin-loading',
+    '/components/mask',
     '/components/popup',
     '/components/progress-bar',
     '/components/progress-circle',
