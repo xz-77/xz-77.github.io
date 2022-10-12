@@ -4,9 +4,9 @@ toc: false
 
 # Icon 图标
 
-<code src="./demos/demo1.tsx"></code>
-
 <embed src="../../../docs/iconfont/index.md"></embed>
+
+<code src="./demos/demo1.tsx"></code>
 
 <!-- ```jsx
 import React from 'react';
