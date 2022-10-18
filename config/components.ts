@@ -28,6 +28,7 @@ export const components = {
     '/components/search-bar',
     '/components/radio',
     '/components/stepper',
+    '/components/switch',
   ],
   feedback: [
     '/components/dot-loading',

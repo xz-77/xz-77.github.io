@@ -10,6 +10,10 @@ toc: content
 
 当任务复杂或者存在先后关系时，将其分解成一系列步骤，从而简化任务。
 
+## 与`antd-mobile`的差异
+
+无
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>
