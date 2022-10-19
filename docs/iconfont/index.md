@@ -5,7 +5,7 @@ GitHub 仓库: [antd-mobile-taro-icons](https://github.com/xz-77/antd-mobile-tar
 ```bash
 $ yarn add antd-mobile-taro-icons
 # or
-$ npm install antd-mobile-taro-icons --save-dev
+$ npm install antd-mobile-taro-icons --save
 ```
 
 ## 引入
