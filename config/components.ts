@@ -26,6 +26,7 @@ export const components = {
     '/components/checkbox',
     '/components/input',
     '/components/search-bar',
+    '/components/selector',
     '/components/radio',
     '/components/stepper',
     '/components/switch',
