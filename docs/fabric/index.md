@@ -1,4 +1,6 @@
-GitHub 仓库: [verify-fabric](https://github.com/xz-77/verify-fabric)
+GitHub: [![github](/assets/github.png)](https://github.com/xz-77/verify-fabric)
+
+**喜欢的话，麻烦点个赞，谢谢 🙏**
 
 ## 新手指南
 
