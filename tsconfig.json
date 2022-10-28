@@ -13,7 +13,8 @@
     "paths": {
       "demos": ["src/demos/index.ts"],
       "wrapper": ["src/wrapper/index.tsx"],
-      "@tarojs/components": ["src/taro/index.ts"]
+      "@tarojs/components": ["src/taro/index.ts"],
+      "@tarojs/taro": ["src/taro/index.ts"]
     }
   }
 }

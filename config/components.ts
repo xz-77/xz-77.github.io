@@ -11,6 +11,7 @@ export const components = {
     '/components/capsule-tabs',
     '/components/jumbo-tabs',
     '/components/nav-bar',
+    '/components/side-bar',
     '/components/tabs',
   ],
   dataDisplay: [
