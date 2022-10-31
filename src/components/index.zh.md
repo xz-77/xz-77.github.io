@@ -60,8 +60,6 @@ _由于小程序不支持 `SVG` 所以 `antd-mobile-taro-ui` 所有用到 `svg` 
 
 ### Taro 脚手架尺寸的设置
 
-### Taro 脚手架尺寸的设置
-
 ```javascript
 // config/index.js
   designWidth: 750,
