@@ -12,6 +12,10 @@ export const navs = [
     path: '/iconfont',
   },
   {
+    title: 'xz-hooks',
+    path: '/hooks',
+  },
+  {
     title: 'verify-fabric',
     path: '/fabric',
   },

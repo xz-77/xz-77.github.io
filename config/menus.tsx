@@ -41,6 +41,16 @@ export const menus = {
       children: components.guidance,
     },
   ],
+  '/hooks': [
+    {
+      title: '新手指南',
+      path: '/hooks',
+    },
+    {
+      title: 'hooks',
+      children: ['/hooks/useEvent'],
+    },
+  ],
   '/iconfont': [
     {
       title: '新手指南',
