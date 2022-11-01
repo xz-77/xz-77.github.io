@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { SideBar } from 'antd-mobile-taro-ui';
 import styles from './demo4.module.less';
 import { lorem } from '../../../demos';
+import { useDebounceFn } from 'ahooks';
 import { ScrollView, View } from '@tarojs/components';
 import Taro from '@tarojs/taro';
 
@@ -32,16 +33,19 @@ export default () => {
     }, 1000);
   }, []);
 
-  const handleScroll = (e) => {
+  // 需要用到防抖
+  const { run: handleScroll } = useDebounceFn((e) => {
     const top = e.detail.scrollTop;
+
     let index = 0;
     let total = h[index];
+
     while (total <= top && index < h.length - 1) {
       index++;
       total += h[index];
     }
     setActiveKey(items[index].key);
-  };
+  });
 
   const handleSideBarOnChange = (key: string) => {
     const k = Number(key);
@@ -57,7 +61,7 @@ export default () => {
   };
 
   return (
-    <View className={styles.container} id="xxx-1">
+    <View className={styles.container}>
       <View className={styles.side}>
         <SideBar
           activeKey={activeKey}
