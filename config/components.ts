@@ -12,6 +12,7 @@ export const components = {
     '/components/jumbo-tabs',
     '/components/nav-bar',
     '/components/side-bar',
+    '/components/tab-bar',
     '/components/tabs',
   ],
   dataDisplay: [
