@@ -18,6 +18,7 @@ export const components = {
   dataDisplay: [
     '/components/avatar',
     '/components/card',
+    '/components/collapse',
     '/components/list',
     '/components/page-indicator',
     '/components/steps',

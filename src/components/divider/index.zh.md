@@ -11,6 +11,10 @@ toc: content
 - 对不同章节的文本段落进行分割。
 - 对行内文字/链接进行分割，例如表格的操作列。
 
+## 与`antd-mobile`的差异
+
+无
+
 ## 示例
 
 <code src="./demos/demo1.tsx"></code>
