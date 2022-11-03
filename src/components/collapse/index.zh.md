@@ -13,9 +13,15 @@ toc: content
 
 ## 与`antd-mobile`的差异
 
-动画部分重写实现，demo 的交互理论上没什么区别，动画部分实现的没有`antd-mobile`那么优雅
+[由于 Taro 获取 node 高度的机制问题](https://github.com/NervJS/taro/issues/7491#issuecomment-684795515)
 
-由于节点`id`的获取是根据小程序编译后自动生成的`id`来进行高度获取，所以`h5`的展示有一定的问题，可以[扫描二维码](http://localhost:8000/components#%E7%BB%84%E4%BB%B6%E5%B1%95%E7%A4%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F)在小程序上进行查看
+使用`Taro.nextTick`无法满足动态内容的节点高度的获取
+
+目前没有找到同时满足静态内容和动态内容在显示和隐藏状态切换的情况下，精确计算节点高度的生命周期，所以暂时取消`transition`动画效果，状态变更会稍显突兀
+
+其他方面目前应该没什么区别
+
+<!-- 由于节点`id`的获取是根据小程序编译后自动生成的`id`来进行高度获取，所以`h5`的展示有一定的问题，可以[扫描二维码](http://localhost:8000/components#%E7%BB%84%E4%BB%B6%E5%B1%95%E7%A4%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F)在小程序上进行查看 -->
 
 ## 示例
 
