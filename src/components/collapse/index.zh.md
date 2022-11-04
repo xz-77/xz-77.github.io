@@ -19,7 +19,7 @@ toc: content
 
 这里的解决办法是使用`Taro.nextTick`、`setTimeout`和`transition`的方式，来替代`@react-spring`实现动画的过度
 
-由于节点`id`的获取是根据小程序编译后自动生成的`id`（小程序节点会有一个`sid`属性）来进行高度获取，所以`h5`端是不兼容的，可以[扫描二维码](http://localhost:8000/components#%E7%BB%84%E4%BB%B6%E5%B1%95%E7%A4%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F)在小程序上进行查看
+由于节点`id`的获取是根据小程序编译后自动生成的`id`（小程序节点会有一个`sid`属性）来进行高度获取，所以`h5`端是不兼容的，目前在`h5`端没有动画过度，可以[扫描二维码](http://localhost:8000/components#%E7%BB%84%E4%BB%B6%E5%B1%95%E7%A4%BA%E5%B0%8F%E7%A8%8B%E5%BA%8F)在小程序上进行查看
 
 其他方面目前应该没什么区别
 
