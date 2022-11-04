@@ -17,7 +17,7 @@ toc: content
 
 使用`Taro.nextTick`无法满足动态内容的节点高度的获取
 
-目前没有找到同时满足静态内容和动态内容在显示和隐藏状态切换的情况下，精确计算节点高度的生命周期，所以暂时取消`transition`动画效果，状态变更会稍显突兀
+这里的解决办法是使用`Taro.nextTick`、`setTimeout`和`transition`的方式，来替代`@react-spring`实现动画的过度
 
 其他方面目前应该没什么区别
 
