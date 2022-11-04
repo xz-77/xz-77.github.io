@@ -23,6 +23,7 @@ export const components = {
     '/components/page-indicator',
     '/components/steps',
     '/components/tag',
+    '/components/water-mark',
     '/components/footer',
   ],
   dataEntry: [
