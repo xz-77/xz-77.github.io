@@ -64,7 +64,7 @@ _由于小程序不支持 `SVG` 所以 `antd-mobile-taro-ui` 所有用到 `svg` 
 
 目前版本是@tarojs/cli@3.5.5
 
-### Taro 脚手架尺寸的设置
+### Taro 高清适配
 
 ```javascript
 // config/index.js
