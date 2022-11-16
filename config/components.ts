@@ -36,6 +36,7 @@ export const components = {
     '/components/switch',
   ],
   feedback: [
+    '/components/action-sheet',
     '/components/dot-loading',
     '/components/spin-loading',
     '/components/mask',
