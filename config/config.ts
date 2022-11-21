@@ -23,6 +23,11 @@ const config: IConfig = {
     'antd-mobile-taro-icons': process.cwd() + '/src/taro/index.ts', // 避免编译报错，指定一个路径进行重定向
   },
   menus,
+  analytics: {
+    // ga: 'google analytics code',
+    baidu: 'ab8d53f348cc48139eb87e623d49a703',
+  },
+
   // locales: [
   //   ['en', 'English'],
   //   ['zh', '中文'],
